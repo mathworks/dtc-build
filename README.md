@@ -38,13 +38,13 @@ This section explains how to build `dtc` using the provided build script. The sc
 1. Clone the MathWorks&reg; device tree compiler repository.
 
 	```
-	git clone https://insidelabs-git.mathworks.com/EmbeddedLinux/device-tree-compiler.git
+	git clone https://github.com/mathworks/dtc-build.git
 	```
 
 2. Navigate to the `mw-dtc` directory.
 
 	```
-	cd device-tree-compiler/mw-dtc
+	cd dtc-build/mw-dtc
 	```
 
 3. Run the build script.
@@ -72,13 +72,13 @@ If you wish to build `dtc` manually, follow the steps mentioned in this section.
 1. Clone the MathWorks device tree compiler repository.
 
 	```
-	git clone https://insidelabs-git.mathworks.com/EmbeddedLinux/device-tree-compiler.git
+	git clone https://github.com/mathworks/dtc-build.git
 	```
 
 2. Navigate to the dtc source directory.
 
 	```
-	cd device-tree-compiler/mw-dtc/dtc-1.7.2
+	cd dtc-build/mw-dtc/dtc-1.7.2
 	```
 
 3. Configure and build.
